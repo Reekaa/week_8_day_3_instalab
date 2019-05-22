@@ -14,6 +14,13 @@ const mapDispatchToProps = (dispatch) =>{
         type:'LIKE',
         imageID: imageID
       })
+    },
+
+    catChange: (category)=>{
+      dispatch({
+        type:'LIST_BY_CAT',
+        category
+      })
     }
   }
 
