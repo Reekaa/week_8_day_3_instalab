@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ImageListContainer from './containers/ImageListContainer'
 import './App.css';
 
 class App extends Component {
@@ -7,6 +7,7 @@ class App extends Component {
   return(
     <div>
     <h1>INSTA--LAB!!!!</h1>
+    <ImageListContainer/>
     </div>
 
   );

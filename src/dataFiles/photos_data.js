@@ -1,4 +1,4 @@
-export const photosData = [
+const photosData = [
   {
     id: 1,
     url: 'images/landscape_4.jpg',
@@ -106,3 +106,5 @@ export const photosData = [
     liked: false
   }
 ]
+
+export default photosData;
